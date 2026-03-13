@@ -2435,12 +2435,6 @@
 		(uuid "7e494bd8-9cdb-40be-954a-bdc43281c5b2")
 	)
 	(junction
-		(at 224.79 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d38bf77-877e-413f-8bdf-cf70e819aed6")
-	)
-	(junction
 		(at 224.79 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2654,16 +2648,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 105.41) (xy 233.68 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d73d33e-d201-4cac-83b3-e41545fa0178")
-	)
-	(wire
-		(pts
 			(xy 177.8 77.47) (xy 182.88 77.47)
 		)
 		(stroke
@@ -2711,16 +2695,6 @@
 			(type default)
 		)
 		(uuid "3c30f820-5d83-464a-8973-c473a6f431f9")
-	)
-	(wire
-		(pts
-			(xy 224.79 105.41) (xy 224.79 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4042eb4d-c93c-4977-acf6-676a99b8809c")
 	)
 	(wire
 		(pts
@@ -3004,7 +2978,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 104.14) (xy 224.79 105.41)
+			(xy 224.79 104.14) (xy 224.79 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3273,14 +3247,14 @@
 		(uuid "fd34e184-6b1c-4dea-a333-5c95597743cb")
 	)
 	(label "V_USB_PROG"
-		(at 224.79 71.12 180)
+		(at 224.79 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "42ff6195-d7cd-48b4-b4d3-44f7e5c37097")
+		(uuid "5b70f513-212f-42ce-94e9-bbfa37b2fdb8")
 	)
 	(label "V_USB_POWER"
 		(at 240.03 71.12 0)
@@ -3337,7 +3311,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 209.55 59.69) (xy 209.55 121.92) (xy 265.43 121.92) (xy 265.43 59.69)
+				(xy 209.55 55.88) (xy 209.55 121.92) (xy 265.43 121.92) (xy 265.43 55.88)
 			)
 			(stroke
 				(width 0)
@@ -3352,7 +3326,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 111.76 59.69) (xy 111.76 121.92) (xy 203.2 121.92) (xy 203.2 59.69)
+				(xy 111.76 55.88) (xy 111.76 121.92) (xy 203.2 121.92) (xy 203.2 55.88)
 			)
 			(stroke
 				(width 0)
@@ -3367,7 +3341,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 27.94 59.69) (xy 105.41 59.69) (xy 105.41 121.92) (xy 27.94 121.92)
+				(xy 27.305 55.88) (xy 104.775 55.88) (xy 105.41 121.92) (xy 27.94 121.92)
 			)
 			(stroke
 				(width 0)
@@ -3898,73 +3872,6 @@
 			(project ""
 				(path "/ca162c4b-e7f6-494c-9ea1-0d86ef4a8e44/bb166e8a-7d54-4ae8-a0b2-867dec2483b7"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 233.68 105.41 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a284dfc-a4f0-4e3d-b5d9-b63682932ce4")
-		(property "Reference" "#FLG02"
-			(at 235.585 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 237.49 105.4099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 233.68 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8eba39db-c8fa-4541-96bb-ded87ebe4c73")
-		)
-		(instances
-			(project "ScramblerBot"
-				(path "/ca162c4b-e7f6-494c-9ea1-0d86ef4a8e44/bb166e8a-7d54-4ae8-a0b2-867dec2483b7"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
